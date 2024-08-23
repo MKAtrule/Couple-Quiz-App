@@ -1,4 +1,5 @@
-﻿using Couple_Quiz.Common.Interface.IFile;
+﻿using Couple_Quiz.Common.Interface.Auth;
+using Couple_Quiz.Common.Interface.IFile;
 using Couple_Quiz.Common.Service.FileService;
 using Couple_Quiz.Interface.Repositories;
 using Couple_Quiz.Repositories;
@@ -15,6 +16,7 @@ namespace Couple_Quiz.Configuration
             services.AddScoped<IFileUpload, FileService>();
             services.AddScoped<IUserRoleRepository, UserRoleRepository>();
             services.AddScoped<IRoleRepository, RoleRepository>();
+            services.AddScoped<IAuthHelper,AuthHelper>();
         }
     }
 }
