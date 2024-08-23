@@ -1,0 +1,26 @@
+{
+  "author": "Muhammad Kumail",
+  "name": "Api Template Using CQRS and Mediatr",
+  "description": "Project template to create Web API endpoint ",
+  "identity": "ApiProjectTemplate",
+  "shortName": "repoApiProject",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Couple_Quiz",
+  "classifications": [ "Project template for CQRS and Mediatr Design Pattern" ],
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net8.0"
+        }
+      ],
+      "defaultValue": "net8.0"
+    }
+  }
+}
